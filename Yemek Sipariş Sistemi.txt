@@ -1,0 +1,14 @@
+*Yemek Sipariş Sistemi: 
+-Bu projeyi açtığımızda ilk olarak restoranlar sıralanıyor.
+-Seçtiğimiz restorana göre o restorandaki menüler listeleniyor.
+-Listelenen yemeklerden istediklerimizi seçtikten sonra oradan çıkış yapılıyor.
+-Siparişi veren kişinin adresi isteniyor.
+-Siparişi veren kişinin kart bilgileri isteniyor 
+-Eğer kartındaki bakiye verdiği siparişin tutarından fazlaysa sipariş iptal oluyor, değilse sipariş oluşturuluyor.
+*KULLANILAN YAPILAR:
+-Döngüler
+-Karar Kontrol Yapıları
+-Fonksiyonlar
+-Pointer Yapısı
+-Struct Yapısı
+-Karakter Dizileri
