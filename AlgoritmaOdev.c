@@ -95,7 +95,7 @@ int main() {
     char sifre[100];
     scanf("%s", sifre);
 
-    printf("\n\n\n1- Oncu Doner\n");
+    printf("\n1- Oncu Doner\n");
     printf("2- Cici Doner\n");
     printf("3- Komagene\n");
     printf("3- Komagene\n");

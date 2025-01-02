@@ -12,3 +12,6 @@
 -Pointer Yapısı
 -Struct Yapısı
 -Karakter Dizileri
+
+*Projenin yüklü olduğu GitHub linki;
+https://github.com/Buraksevindik
