@@ -84,9 +84,14 @@ char AdresGiris() {
     return adres;
 }
 int main() {
-    int restoranSecim, yemekSecim, secilenYemekSayisi = 0;
+    char uygulamaAdi[50]="Yemek Siparis sistemi";
+    int restoranSecim, yemekSecim, secilenYemekSayisi = 0,uzunluk;
     struct Yemek secilenYemekler[100];
-
+    uzunluk = strlen(uygulamaAdi);
+    FILE *fp=fopen("Progam Adi.txt","w");
+    for (int i=0;i<uzunluk;i++) {
+        fputc(uygulamaAdi[i], fp);
+    }
     printf("Kullanici adini giriniz: ");
     char kullaniciAdi[100];
     scanf("%s", kullaniciAdi);
